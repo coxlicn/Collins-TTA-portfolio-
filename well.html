@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Alvin Cruz</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #fff;
+        }
+        header {
+            background: #1f1f1f;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .hero {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .hero img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        .highlight {
+            color: #4caf50;
+        }
+        .specialized, .projects, .testimonials {
+            text-align: center;
+            padding: 40px 20px;
+        }
+        .specialties, .project-cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card, .project {
+            background: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            width: 200px;
+        }
+        .project img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .testimonial {
+            background: #1f1f1f;
+            padding: 20px;
+            border-radius: 8px;
+            max-width: 500px;
+            margin: auto;
+        }
+        .testimonial img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin-top: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #1f1f1f;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <img src="olo.jpg" alt="Alvin Cruz">
+        <h1>John <span class="highlight">Doe</span>.</h1>
+        <p>Passionate developer focused on building clean and modern web applications.</p>
+    </section>
+
+    <section class="specialized">
+        <h2>Specialized in</h2>
+        <div class="specialties">
+            <div class="card">Web Development
+                Alvin is a web developer focused on creating dynamic, <br>responsive websites using cutting-edge technologies like HTML, CSS, and JavaScript.</div>
+            <div class="card">UI/UX Design
+                He excels in crafting intuitive user interfaces and seamless user experiences, <br>ensuring that websites are not only functional but also visually appealing and easy to navigate</div>
+            <div class="card">SEO Optimization
+                Alvin also specializes in SEO optimization, enhancing websites to rank <br> higher on search engines, improving visibility, and driving more organic traffic</div>
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Worked on</h2>
+        <div class="project-cards">
+            <div class="project"><img src="NTI5NzE_yO9RrR6SnCrwhNbe-2173-NOC.jpg" alt="Project 1"><p>Project 1</p></div>
+            <div class="project"><img src="pl.jpg" alt="Project 2"><p>Project 2</p></div>
+            <div class="project"><img src="photo-1542831371-29b0f74f9713.jpg" alt="Project 3"><p>Project 3</p></div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>Testimonials</h2>
+        <div class="testimonial">
+            <p>"John is an amazing developer. Highly recommended!"</p>
+            <img src="happiness.webp" alt="Client 1">
+            <span>- Happy Client</span>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 John Doe. All rights reserved.</p>
+    </footer>
+</body>
+</html>
